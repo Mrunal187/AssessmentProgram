@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test thread-count="5" name="MavenProject">
+        <classes>
+            <class name="DashboardTest">
+                <methods>
+                    <include name="insightTest"/>
+                </methods>
+            </class> <!-- TestMaven -->
+        </classes>
+    </test> <!-- MavenProject -->
+</suite> <!-- Default Suite -->
