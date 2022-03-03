@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 1.286 sec <<< FAILURE!
+setUp(DashboardTest)  Time elapsed: 0.475 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at base.Base.initialization(Base.java:28)
+	at DashboardTest.setUp(DashboardTest.java:21)
+
+setUp(LoginTest)  Time elapsed: 0.657 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at base.Base.initialization(Base.java:28)
+	at LoginTest.setUp(LoginTest.java:22)
+
