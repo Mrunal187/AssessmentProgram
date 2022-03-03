@@ -29,19 +29,12 @@ public class Users extends Base {
     WebElement button;
     public void addUser(String name,String description) throws IOException{
         try {
-            System.out.println("Im in this block");
-           // system.deselectByValue("5");
             users.click();
             qualification.click();
             addnewbutton.click();
             firstname.sendKeys(name);
             desc.sendKeys(description);
             button.click();
-
-
-            /*email.sendKeys(name);
-            pass.sendKeys(password);
-            buttonlogin.click();*/
         }
         catch (NoSuchElementException nee)
         {
