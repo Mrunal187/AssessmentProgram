@@ -29,7 +29,6 @@ public class Base {
             WebDriverManager.chromedriver().setup();
             webDriver = new ChromeDriver();
             webDriver.manage().window().maximize();
-            webDriver.manage().window().maximize();
             webDriver.manage().deleteAllCookies();
             // webDriver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
             webDriver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
