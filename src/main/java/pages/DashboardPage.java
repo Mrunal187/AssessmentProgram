@@ -19,7 +19,6 @@ public class DashboardPage extends Base {
         timeAttendance.click();
 
     }
-
     public DashboardPage() throws IOException {
         PageFactory.initElements(webDriver,this);
     }
