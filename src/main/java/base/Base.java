@@ -35,5 +35,7 @@ public class Base {
             webDriver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
             webDriver.get(prop.getProperty("url"));
         }
+        System.out.println("updated");
+
     }
-}
+    }

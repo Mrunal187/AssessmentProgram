@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import pages.DashboardPage;
 import pages.LoginPage;
 import java.io.IOException;
-import java.rmi.Remote;
 
 public class DashboardTest extends Base {
     LoginPage loginPage;
