@@ -36,6 +36,7 @@ public class Base {
             webDriver.get(prop.getProperty("url"));
         }
         System.out.println("updated");
+        System.out.println("updated1");
 
     }
     }
